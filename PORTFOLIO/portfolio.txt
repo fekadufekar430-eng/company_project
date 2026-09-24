@@ -1,0 +1,64 @@
+
+    ***   The reason I suggested following this approach is that
+          it helps make things much easier to understand.
+
+When working on this kind of project, instead of having different people
+write separate files—like one person writing the HTML, another writing the CSS,
+and someone else writing the JavaScript (which can lead to misunderstandings or integration issues)
+one person builds the entire page completely by themselves. This means they combine and write
+everything (HTML, CSS, DOM manipulation, and JavaScript) all in one go, complete the full work,
+and then push the finished, fully integrated code.
+
+
+
+JUST LIKE THIS LOOK AT TH FOLDER 
+         ||
+         ||
+         ||
+         ||
+
+
+company-project/
+│
+├── index.html  ----------------->>> (Main Landing Page)
+├── assets/     ----------------->>>  (Global assets)
+│   ├── css/
+│   │   └── global.css        
+│   ├── js/
+│   │   └── main.js   ------------->> (Navbar, Global interactions)
+│   └── images/
+│
+├── home/
+│   ├── home.html
+│   ├── home.css
+│   └── home.js
+│
+├── about/
+│   ├── about.html
+│   ├── about.css
+│   └── about.js
+│
+├── service/
+│   ├── service.html
+│   ├── service.css
+│   └── service.js
+│
+├── portfolio/
+│   ├── portfolio.html
+│   ├── portfolio.css
+│   └── portfolio.js
+│
+├── pricing/
+│   ├── pricing.html
+│   ├── pricing.css
+│   └── pricing.js
+│
+├── blog/
+│   ├── blog.html
+│   ├── blog.css
+│   └── blog.js
+│
+└── contact/
+    ├── contact.html
+    ├── contact.css
+    └── contact.js
