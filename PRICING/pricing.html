@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Pricing Page</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  
+  <!-- Vendor CSS (Bootstrap & Icons) -->
+  <link href="../assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="../assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+
+  <!-- My Custom CSS File -->
+  <link href="pricing.css" rel="stylesheet">
+</head>
+
+<body class="pricing-page">
+
+  <main class="main">
+    <!-- Page Title -->
+    <div class="page-title text-center py-5">
+      <div class="container">
+        <h1>Pricing Plans</h1>
+        <h4>Choose the best plan that fits your needs.</h4>
+      </div>
+    </div>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="pricing section py-5">
+      <div class="container">
+        
+        <!-- Toggle Button for JS interactivity -->
+        <div class="pricing-toggle text-center mb-5">
+          <button id="monthlyBtn" class="btn btn-primary active-btn">Monthly</button>
+          <button id="yearlyBtn" class="btn btn-outline-primary">Yearly (Save 20%)</button>
+        </div>
+
+        <div class="row gy-4 align-items-stretch">
+
+          <!-- 1. Free Plan -->
+          <div class="col-lg-4 d-flex">
+            <div class="pricing-item w-100">
+              <h3>Free Plan</h3>
+              <p class="description">Great for personal projects and exploring basic features.</p>
+              <h4><sup>$</sup><span class="price-value" data-monthly="0" data-yearly="0">0</span><span> / month</span></h4>
+              <a href="#" class="cta-btn">Start a free trial</a>
+              <ul class="features-list">
+                <li><i class="bi bi-check-lg"></i> <span>Single User Access</span></li>
+                <li><i class="bi bi-check-lg"></i> <span>5GB Cloud Storage</span></li>
+                <li><i class="bi bi-check-lg"></i> <span>Basic Project Analytics</span></li>
+                <li><i class="bi bi-check-lg"></i> <span>Community Support</span></li>
+                <li class="na"><i class="bi bi-x-lg"></i> <span>Custom Domain Integration</span></li>
+                <li class="na"><i class="bi bi-x-lg"></i> <span>24/7 Dedicated Support</span></li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- 2. Business Plan -->
+          <div class="col-lg-4 d-flex">
+            <div class="pricing-item featured w-100">
+              <p class="popular">Most Popular</p>
+              <h3>Business Plan</h3>
+              <p class="description">Perfect for growing small businesses and teams.</p>
+              <h4><sup>$</sup><span class="price-value" data-monthly="29" data-yearly="290">29</span><span> / month</span></h4>
+              <a href="#" class="cta-btn">Get Started</a>
+              <ul class="features-list">
+                <li><i class="bi bi-check-lg"></i> <span>Up to 10 Team Members</span></li>
+                <li><i class="bi bi-check-lg"></i> <span>50GB Cloud Storage</span></li>
+                <li><i class="bi bi-check-lg"></i> <span>Advanced Analytics & Reports</span></li>
+                <li><i class="bi bi-check-lg"></i> <span>Priority Email Support</span></li>
+                <li><i class="bi bi-check-lg"></i> <span>Custom Domain Integration</span></li>
+                <li class="na"><i class="bi bi-x-lg"></i> <span>24/7 Dedicated Support</span></li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- 3. Developer Plan -->
+          <div class="col-lg-4 d-flex">
+            <div class="pricing-item w-100">
+              <h3>Developer Plan</h3>
+              <p class="description">Advanced tools and resources for professional developers.</p>
+              <h4><sup>$</sup><span class="price-value" data-monthly="49" data-yearly="490">49</span><span> / month</span></h4>
+              <a href="#" class="cta-btn">Buy Now</a>
+              <ul class="features-list">
+                <li><i class="bi bi-check-lg"></i> <span>Unlimited Team Members</span></li>
+                <li><i class="bi bi-check-lg"></i> <span>500GB Cloud Storage</span></li>
+                <li><i class="bi bi-check-lg"></i> <span>Full API & Webhook Access</span></li>
+                <li><i class="bi bi-check-lg"></i> <span>Custom Integrations</span></li>
+                <li><i class="bi bi-check-lg"></i> <span>Custom Domain & Free SSL</span></li>
+                <li><i class="bi bi-check-lg"></i> <span>24/7 Dedicated Support</span></li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+
+  <!-- My Custom JS File -->
+  <script src="pricing.js"></script>
+
+</body>
+</html>
